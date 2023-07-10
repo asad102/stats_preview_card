@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stats preview card component</title>
+    <!-- favico -->
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <!-- tailwindcss  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="flex min-h-screen  bg-bodybg">
+        <div class="flex flex-col md:flex-row items-center justify-center max-w-[1110px] max-h-full md:mx-auto mx-4  my-10">
+            <div class="card flex flex-col-reverse md:flex-row bg-bodyco rounded-lg shadow overflow-hidden">
+                <div class="body flex flex-col gap-7 md:gap-0 justify-around w-full md:w-1/2 lg:px-20 px-4 md:text-start text-center">
+                    <div class="header my-10">
+                        <h1 class="font-bold text-white text-4xl pb-7">Get <span class="text-blue-600">Insights</span> that help your business grow.</h1>
+                        <p class="text-[#afadc5]">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+                            experience, and overall efficiency.</p>
+                    </div>
+                    <div class="social flex flex-col md:flex-row gap-4 md:justify-between pb-4">
+                        <div class="companies">
+                            <h3 class="text-white font-bold text-2xl">10k+</h3>
+                            <span class="text-[#afadc5] uppercase">Companies</span>
+                        </div>
+                        <div class="templates">
+                            <h3 class="text-white font-bold text-2xl">314</h3>
+                            <span class="text-[#afadc5] uppercase">Templates</span>
+                        </div>
+                        <div class="queries">
+                            <h3 class="text-white font-bold text-2xl">12M+</h3>
+                            <span class="text-[#afadc5] uppercase">queries</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2">
+                    <img class="object-cover w-full h-full fill-neutral-700" src="img/image-header-desktop.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
