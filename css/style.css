@@ -1102,6 +1102,11 @@ video {
   margin: 1rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -1763,8 +1768,8 @@ video {
   gap: 1.5rem;
 }
 
-.gap-5 {
-  gap: 1.25rem;
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2526,6 +2531,10 @@ video {
   line-height: 2rem;
 }
 
+.tracking-\[1px\] {
+  letter-spacing: 1px;
+}
+
 .text-Softvioletaccent {
   --tw-text-opacity: 1;
   color: hsl(277 64% 61% / var(--tw-text-opacity));
@@ -2979,6 +2988,11 @@ video {
     margin: 0px;
   }
 
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .lg\:max-w-\[1110px\] {
     max-width: 1110px;
   }
@@ -2987,36 +3001,8 @@ video {
     flex-direction: row;
   }
 
-  .lg\:justify-between {
-    justify-content: space-between;
-  }
-
   .lg\:gap-16 {
     gap: 4rem;
-  }
-
-  .lg\:p-16 {
-    padding: 4rem;
-  }
-
-  .lg\:py-20 {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
-
-  .lg\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
-  .lg\:px-\[100px\] {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .lg\:px-24 {
@@ -3024,9 +3010,9 @@ video {
     padding-right: 6rem;
   }
 
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .lg\:py-\[70px\] {
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 
   .lg\:text-start {
