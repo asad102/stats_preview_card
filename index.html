@@ -7,38 +7,41 @@
     <!-- favico -->
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
     <!-- tailwindcss  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="flex min-h-screen  bg-bodybg">
-        <div class="flex flex-col md:flex-row items-center justify-center max-w-[1110px] max-h-full md:mx-auto mx-4  my-10">
-            <div class="card flex flex-col-reverse md:flex-row bg-bodyco rounded-lg shadow overflow-hidden">
-                <div class="body flex flex-col gap-7 md:gap-0 justify-around w-full md:w-1/2 lg:px-20 px-4 md:text-start text-center">
-                    <div class="header my-10">
-                        <h1 class="font-bold text-white text-4xl pb-7">Get <span class="text-blue-600">Insights</span> that help your business grow.</h1>
-                        <p class="text-[#afadc5]">Discover the benefits of data analytics and make better decisions regarding revenue, customer
-                            experience, and overall efficiency.</p>
+
+    <main class="font-inter text-[15px] min-h-screen grid place-items-center justify-center bg-Verydarkbluemainbackground ">
+        <article class="flex flex-col-reverse lg:flex-row lg:max-w-[1110px] max-w-[327px] max-h-[780px] lg:m-0 m-4  rounded-lg bg-Darkdesaturatedbluecardbackground overflow-hidden">
+            <hgroup class=" text-White flex flex-col gap-6 flex-1 justify-between lg:text-start text-center lg:px-24 lg:py-20 p-4">
+                <h1 class="font-inter font-bold lg:text-4xl text-3xl lg:leading-10 leading-8">Get <span class="text-Softvioletaccent">insights</span>  that help your business grow.</h1>
+                <p class="font-normal leading-6 ">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+                <div class="flex lg:flex-row flex-col gap-6 justify-between">
+                    <div class="flex flex-col">
+                        <h3 class="font-inter font-bold text-2xl ">10k+</h3>
+                        <span class="font-lexa font-normal text-[12px]">Companies</span>
                     </div>
-                    <div class="social flex flex-col md:flex-row gap-4 md:justify-between pb-4">
-                        <div class="companies">
-                            <h3 class="text-white font-bold text-2xl">10k+</h3>
-                            <span class="text-[#afadc5] uppercase">Companies</span>
-                        </div>
-                        <div class="templates">
-                            <h3 class="text-white font-bold text-2xl">314</h3>
-                            <span class="text-[#afadc5] uppercase">Templates</span>
-                        </div>
-                        <div class="queries">
-                            <h3 class="text-white font-bold text-2xl">12M+</h3>
-                            <span class="text-[#afadc5] uppercase">queries</span>
-                        </div>
+                    <div class="flex flex-col">
+                        <h3 class="font-inter font-bold text-2xl ">314</h3>
+                        <span class="font-lexa  font-normal text-[12px]">Templates</span>
+                    </div>
+                    <div class="flex flex-col">
+                        <h3 class="font-inter font-bold text-2xl ">12M</h3>
+                        <span class="font-lexa font-normal text-[12px]">Queries</span>
                     </div>
                 </div>
-                <div class="w-full md:w-1/2">
-                    <img class="object-cover w-full h-full fill-neutral-700" src="img/image-header-desktop.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
+            </hgroup>
+            <div class="relative">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./img/image-header-desktop.jpg">
+                  <img src="./img/image-header-mobile.jpg" alt="cardimg" class="w-full object-cover">
+                </picture>
+                <div class="absolute inset-0 bg-Softvioletaccent opacity-50"></div>
+              </div>
+        </article>
+    </main>
+
 </body>
 </html>
