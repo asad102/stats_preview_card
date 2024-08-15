@@ -33,10 +33,14 @@
                     </div>
                 </div>
             </section>
-            <picture>
-                <source media="(min-width: 768px)" srcset="./img/image-header-desktop.jpg">
-                <img src="./img/image-header-mobile.jpg" alt="cardimg" class="w-full h-full object-cover">
-            </picture>
+            <div class="relative">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="./img/image-header-desktop.jpg">
+                    <img src="./img/image-header-mobile.jpg" alt="cardimg" class="w-full h-full object-cover  ">
+                    <div class="absolute inset-0 bg-Dark-accent opacity-75 mix-blend-multiply"></div>
+                </picture>
+            </div>
+
         </article>
     </main>
 
