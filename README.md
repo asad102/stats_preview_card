@@ -49,10 +49,12 @@ How to use github repository to edit the project again and again.
 Using Different Images for Different Screen Sizes
 To see how you can add code snippets, see below:
 
-```<picture>
+```
+<picture>
     <source media="(min-width: 768px)" srcset="./img/image-header-desktop.jpg">
     <img src="./img/image-header-mobile.jpg" alt="cardimg" class="w-full h-full object-cover">
 </picture>
+
 ```
 
 
